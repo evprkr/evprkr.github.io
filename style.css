@@ -1,51 +1,13 @@
-html, body {
-    background-color: #CCCCCC;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    font-family: monospace;
+* {
+    user-select: none;
+}
+
+body {
+    background: #222323;
+    color: #f0f6f0;
 }
 
 a {
-    color: #0000FF;
-}
-
-#container {
-    background-color: #FFFFFF;
-    width: 50%;
-    margin: auto;
-    margin-top: 32px;
-    max-width: 800px;
-    padding: 16px;
-}
-
-#header {
-    text-align: center;
-    font-size: 36pt;
-}
-
-#navContainer {
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-}
-
-#navigation {
-    text-align: center;
-}
-
-#navigation td {
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-#anvil {
-    width: 15ch;
-    margin: auto;
-}
-
-#footer {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    text-align: center;
+    color: #666767;
+    text-decoration: none;
 }
