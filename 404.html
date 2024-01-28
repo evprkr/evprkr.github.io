@@ -16,19 +16,7 @@
                 var redirect = path.substring(path.lastIndexOf('/') + 1);
                 var destination = "http://github.com/leftbones/" + redirect;
 
-                var xhr = new XMLHttpRequest();
-                xhr.onreadystatechange = function() {
-                    if (xhr.readyState === XMLHttpRequest.DONE) {
-                        if (xhr.status === 404) {
-                            window.location.href = "http://leftbon.es/"
-                        } else {
-                            window.location.href = destination;
-                        }
-                    }
-                }
-
-                xhr.open("GET", destination, true);
-                xhr.send();
+                window.location.href = destination;
             }
 
             window.onload = redirect;
